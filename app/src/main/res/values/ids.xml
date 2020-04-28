@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="runLayout" type="id"></item>
+    <item name="bigImage" type="id"></item>
+    <item name="runButton" type="id"></item>
+
+    <item name="testLayout" type="id"></item>
+    <item name="imageButton1" type="id"></item>
+    <item name="imageButton2" type="id"></item>
+    <item name="imageButton3" type="id"></item>
+    <item name="imageButton4" type="id"></item>
+    <item name="imageButtonFrame1" type="id"></item>
+    <item name="imageButtonFrame2" type="id"></item>
+    <item name="imageButtonFrame3" type="id"></item>
+    <item name="imageButtonFrame4" type="id"></item>
+    <item name="chooseButton" type="id"></item>
+
+</resources>

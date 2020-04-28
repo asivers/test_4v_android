@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMainBackground"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@id/runLayout"
+        android:contentDescription="@string/runLayout"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="2:3"
+        android:layout_gravity="center"
+        android:useDefaultMargins="true"
+        android:columnCount="1"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.5">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="0.125" />
+
+        <ImageView
+            android:id="@id/bigImage"
+            android:contentDescription="@string/bigImage"
+            android:background="@drawable/big_start"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="2" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="0.25" />
+
+        <Button
+            android:id="@id/runButton"
+            android:contentDescription="@string/runButton"
+            android:enabled="true"
+            android:text="Начать тест"
+            android:textSize="30sp"
+            android:textColor="@color/colorEnabledButtonText"
+            android:background="@color/colorEnabledButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="0.5" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="0.125" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@id/testLayout"
+        android:contentDescription="@string/testLayout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="2:3"
+        android:layout_gravity="center"
+        android:useDefaultMargins="true"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.5">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_columnSpan="2"
+            android:layout_rowWeight="0.125" />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@id/imageButton1"
+                android:contentDescription="@string/imageButton1"
+                android:background="@drawable/img0011" />
+
+            <ImageView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@id/imageButtonFrame1"
+                android:contentDescription="@string/imageButtonFrame1"
+                android:background="@drawable/border" />
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@id/imageButton2"
+                android:contentDescription="@string/imageButton2"
+                android:background="@drawable/img0012" />
+
+            <ImageView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@id/imageButtonFrame2"
+                android:contentDescription="@string/imageButtonFrame2"
+                android:background="@drawable/border" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@id/imageButton3"
+                android:contentDescription="@string/imageButton3"
+                android:background="@drawable/img0013" />
+
+            <ImageView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@id/imageButtonFrame3"
+                android:contentDescription="@string/imageButtonFrame3"
+                android:background="@drawable/border" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@id/imageButton4"
+                android:contentDescription="@string/imageButton4"
+                android:background="@drawable/img0014" />
+
+            <ImageView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@id/imageButtonFrame4"
+                android:contentDescription="@string/imageButtonFrame4"
+                android:background="@drawable/border" />
+        </FrameLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_columnSpan="2"
+            android:layout_rowWeight="0.25" />
+
+        <Button
+            android:id="@id/chooseButton"
+            android:contentDescription="@string/chooseButton"
+            android:enabled="false"
+            android:text="Выбрать"
+            android:textSize="30sp"
+            android:textColor="@color/colorEnabledButtonText"
+            android:background="@color/colorEnabledButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_columnSpan="2"
+            android:layout_rowWeight="0.5" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_columnSpan="2"
+            android:layout_rowWeight="0.125" />
+
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">Грибной тест</string>
+
+    <string name="runLayout">runLayout</string>
+    <string name="bigImage">bigImage</string>
+    <string name="runButton">runButton</string>
+
+    <string name="testLayout">testLayout</string>
+    <string name="imageButton1">imageButton1</string>
+    <string name="imageButton2">imageButton2</string>
+    <string name="imageButton3">imageButton3</string>
+    <string name="imageButton4">imageButton4</string>
+    <string name="imageButtonFrame1">imageButtonFrame1</string>
+    <string name="imageButtonFrame2">imageButtonFrame2</string>
+    <string name="imageButtonFrame3">imageButtonFrame3</string>
+    <string name="imageButtonFrame4">imageButtonFrame4</string>
+    <string name="chooseButton">chooseButton</string>
+</resources>
